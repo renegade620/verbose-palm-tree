@@ -1,0 +1,48 @@
+.nav {
+  position: sticky;
+  /* top: 0; */
+  /* left: 0; */
+  /* right: 0; */
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 70%;
+  max-width: 1200px;
+  background-color: var(--nav-bg);
+  backdrop-filter: blur(10px);
+  padding: 0 var(--spacing-md);
+  z-index: 1000;
+}
+
+.nav-container, .badge-container {
+  display: flex;
+  gap: var(--spacing-lg);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.nav-link {
+  color: var(--text-gray);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: var(--text-white);
+}
+
+.badge-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.badge-link:hover {
+  transform: scale(1.1);
+}
+
+.badge-container {
+  padding: var(--spacing-sm);
+}
