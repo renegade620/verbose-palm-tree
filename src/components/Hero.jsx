@@ -28,7 +28,7 @@ function Hero() {
             </span>
             . I love code wars and word porn.
           </p>
-          <button className="cta-buttom">Un/Suit up and Jump in</button>
+          <button className="cta-buttom">Jump in</button>
         </div>
         <div className="hero-image">
           <img
